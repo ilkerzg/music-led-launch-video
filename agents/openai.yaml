@@ -1,0 +1,4 @@
+interface:
+  display_name: "Music-Led Launch Video"
+  short_description: "Cut launch videos precisely to music"
+  default_prompt: "Use $music-led-launch-video to build an original launch video whose cuts and visual energy follow the music."

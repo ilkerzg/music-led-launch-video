@@ -73,11 +73,7 @@ Use beat subdivisions as choices, not rules:
 
 Vary the cadence across the film. A sequence of identical cut lengths usually feels mechanical.
 
-For a machine-checkable plan, use the event format described in [references/edit-plan.md](references/edit-plan.md) and run:
-
-```bash
-python3 scripts/validate_edit_plan.py edit-plan.json
-```
+For a structured plan, use the optional event format in [references/edit-plan.md](references/edit-plan.md). Review it directly for event order, source duplication, timeline bounds, and beat alignment; do not let the format dictate the creative structure.
 
 ### 4. Design shot diversity
 
@@ -172,6 +168,5 @@ Read [references/quality-gates.md](references/quality-gates.md) for the final re
 ## Resources
 
 - [references/editing-grammar.md](references/editing-grammar.md): timing, shot, transition, and layout choices.
-- [references/edit-plan.md](references/edit-plan.md): neutral JSON event-plan format.
+- [references/edit-plan.md](references/edit-plan.md): optional neutral event-plan format and manual review checklist.
 - [references/quality-gates.md](references/quality-gates.md): final technical and visual review.
-- `scripts/validate_edit_plan.py`: check event order, timing, source duplication, and beat alignment without imposing a creative template.
